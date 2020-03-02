@@ -1,0 +1,48 @@
+[submodule "my_plugins/SimpylFold"]
+	path = my_plugins/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
+[submodule "my_plugins/ale"]
+	path = my_plugins/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "my_plugins/animate.vim"]
+	path = my_plugins/animate.vim
+	url = https://github.com/camspiers/animate.vim.git
+[submodule "my_plugins/badwolf"]
+	path = my_plugins/badwolf
+	url = https://github.com/sjl/badwolf.git
+[submodule "my_plugins/follow-markdown-links"]
+	path = my_plugins/follow-markdown-links
+	url = https://github.com/prashanthellina/follow-markdown-links.git
+[submodule "my_plugins/gundo.vim"]
+	path = my_plugins/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "my_plugins/lens.vim"]
+	path = my_plugins/lens.vim
+	url = https://github.com/camspiers/lens.vim.git
+[submodule "my_plugins/nerdcommenter"]
+	path = my_plugins/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "my_plugins/vim-afterglow"]
+	path = my_plugins/vim-afterglow
+	url = https://github.com/danilo-augusto/vim-afterglow.git
+[submodule "my_plugins/vim-cellmode"]
+	path = my_plugins/vim-cellmode
+	url = https://github.com/julienr/vim-cellmode.git
+[submodule "my_plugins/vim-ipython"]
+	path = my_plugins/vim-ipython
+	url = https://github.com/ivanov/vim-ipython.git
+[submodule "my_plugins/vim-jekyll"]
+	path = my_plugins/vim-jekyll
+	url = https://github.com/parkr/vim-jekyll.git
+[submodule "my_plugins/vim-tmux-navigator"]
+	path = my_plugins/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "my_plugins/vim-tmux-resizer"]
+	path = my_plugins/vim-tmux-resizer
+	url = https://github.com/melonmanchan/vim-tmux-resizer.git
+[submodule "my_plugins/vimux"]
+	path = my_plugins/vimux
+	url = https://github.com/benmills/vimux.git
+[submodule "my_plugins/YouCompleteMe"]
+	path = my_plugins/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
