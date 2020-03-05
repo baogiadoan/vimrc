@@ -46,3 +46,6 @@
 [submodule "my_plugins/YouCompleteMe"]
 	path = my_plugins/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "my_plugins/vim-airline"]
+	path = my_plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
