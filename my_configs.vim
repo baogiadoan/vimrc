@@ -1,12 +1,13 @@
 ""Setting for carbonized colorscheme
 
 "colorscheme carbonized-dark
-colorscheme badwolf
+"colorscheme badwolf
+colorscheme gruvbox
 
 ""Setting for carbonized lightline
-"let g:lightline = {
-    "\ 'colorscheme' : 'carbonized_dark',
-    "\ }
+let g:lightline = {
+    \ 'colorscheme' : 'gruvbox',
+    \ }
 
 "Setting for YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -91,4 +92,20 @@ vnoremap _( <Esc>`>a)<Esc>`<i(<Esc>
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*':[], 'python': ['black']}
 
+set relativenumber
+
+
+" set up Python IDE
+"
+set encoding=utf8
+
+set guifont="Hack Bold Nerd Font Complete Mono" 12 
+"set guifont="Hack_Bold_Nerd_Font_Complete_Mono":h12 
+
+
+let g:airline_powerline_fonts = 1
+
+" Undo Tree
+"
+nnoremap <F5> :UndotreeToggle<cr>
 
