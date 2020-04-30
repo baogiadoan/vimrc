@@ -102,7 +102,7 @@ map <Leader>tt :vnew term://zsh<CR>
 map <Leader>th <C-w>t<C-w>H
 map <Leader>tk <C-w>t<C-w>K
 
-set guifont="Hack Bold Nerd Font Complete Mono" 12 
+"set guifont="Hack Bold Nerd Font Complete Mono" 12 
 "set guifont="Hack_Bold_Nerd_Font_Complete_Mono":h12 
 
 
