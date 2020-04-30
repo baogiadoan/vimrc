@@ -92,12 +92,15 @@ vnoremap _( <Esc>`>a)<Esc>`<i(<Esc>
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*':[], 'python': ['black']}
 
-set relativenumber
-
-
-" set up Python IDE
-"
-set encoding=utf8
+"==================================================
+"split config
+" 
+set splitbelow splitright
+" => Open terminal inside Vim
+map <Leader>tt :vnew term://zsh<CR>
+" => Change 2 split windows from vert to horiz or horiz to vert
+map <Leader>th <C-w>t<C-w>H
+map <Leader>tk <C-w>t<C-w>K
 
 set guifont="Hack Bold Nerd Font Complete Mono" 12 
 "set guifont="Hack_Bold_Nerd_Font_Complete_Mono":h12 
@@ -108,4 +111,23 @@ let g:airline_powerline_fonts = 1
 " Undo Tree
 "
 nnoremap <F5> :UndotreeToggle<cr>
+"==================================================
+"split config
+" 
+set splitbelow splitright
+" => Open terminal inside Vim
+map <Leader>tt :vnew term://zsh<CR>
+" => Change 2 split windows from vert to horiz or horiz to vert
+map <Leader>th <C-w>t<C-w>H
+map <Leader>tk <C-w>t<C-w>K
 
+
+"==================================================
+"TERMINAL mode
+
+tnoremap <Esc> <C-\><C-n>
+
+
+"==================================================
+"set relative
+set relativenumber
