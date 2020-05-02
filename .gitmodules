@@ -64,12 +64,6 @@
 [submodule "my_plugins/vim-obsession"]
 	path = my_plugins/vim-obsession
 	url = https://github.com/tpope/vim-obsession.git
-[submodule "my_plugins/ultisnips"]
-	path = my_plugins/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
-[submodule "my_plugins/vim-snippets"]
-	path = my_plugins/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
 [submodule "my_plugins/onedark.vim"]
 	path = my_plugins/onedark.vim
 	url = https://github.com/joshdick/onedark.vim.git
@@ -79,3 +73,9 @@
 [submodule "my_plugins/vim-airline-themes"]
 	path = my_plugins/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "my_plugins/base16-vim"]
+	path = my_plugins/base16-vim
+	url = https://github.com/chriskempson/base16-vim.git
+[submodule "my_plugins/vim-colorscheme-manager"]
+	path = my_plugins/vim-colorscheme-manager
+	url = https://github.com/Taverius/vim-colorscheme-manager

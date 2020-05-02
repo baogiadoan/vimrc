@@ -4,12 +4,13 @@
 "colorscheme badwolf
 "colorscheme gruvbox
 syntax on
-colorscheme onedark
+"colorscheme onedark
 
-""Setting for carbonized lightline
-let g:lightline = {
-    \ 'colorscheme' : 'onedark',
-    \ }
+"base16 theme config
+let base16colorspace=256
+set termguicolors
+colorscheme base16-chalk
+"
 
 "Setting for YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -110,6 +111,7 @@ map <Leader>tk <C-w>t<C-w>K
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='onedark'
+
 " Undo Tree
 "
 nnoremap <F5> :UndotreeToggle<cr>
@@ -138,4 +140,4 @@ set encoding=UTF-8
 
 "==================================================
 " UltiSnip
-let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsExpandTrigger="<cr>"
