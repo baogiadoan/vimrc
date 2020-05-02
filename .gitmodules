@@ -79,3 +79,6 @@
 [submodule "my_plugins/vim-colorscheme-manager"]
 	path = my_plugins/vim-colorscheme-manager
 	url = https://github.com/Taverius/vim-colorscheme-manager
+[submodule "my_plugins/ultisnips"]
+	path = my_plugins/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
