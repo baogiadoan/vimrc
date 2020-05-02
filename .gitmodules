@@ -82,3 +82,9 @@
 [submodule "my_plugins/ultisnips"]
 	path = my_plugins/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "my_plugins/vim-ipython-cell"]
+	path = my_plugins/vim-ipython-cell
+	url = https://github.com/hanschen/vim-ipython-cell.git
+[submodule "my_plugins/vim-slime"]
+	path = my_plugins/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
