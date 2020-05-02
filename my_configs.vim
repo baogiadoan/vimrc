@@ -2,11 +2,13 @@
 
 "colorscheme carbonized-dark
 "colorscheme badwolf
-colorscheme gruvbox
+"colorscheme gruvbox
+syntax on
+colorscheme onedark
 
 ""Setting for carbonized lightline
 let g:lightline = {
-    \ 'colorscheme' : 'gruvbox',
+    \ 'colorscheme' : 'onedark',
     \ }
 
 "Setting for YouCompleteMe
@@ -107,7 +109,7 @@ map <Leader>tk <C-w>t<C-w>K
 
 
 let g:airline_powerline_fonts = 1
-
+let g:airline_theme='onedark'
 " Undo Tree
 "
 nnoremap <F5> :UndotreeToggle<cr>
@@ -131,3 +133,9 @@ tnoremap <Esc> <C-\><C-n>
 "==================================================
 "set relative
 set relativenumber
+
+set encoding=UTF-8
+
+"==================================================
+" UltiSnip
+let g:UltiSnipsExpandTrigger="<tab>"
