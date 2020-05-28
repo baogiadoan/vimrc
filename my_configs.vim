@@ -128,7 +128,8 @@ map <Leader>tk <C-w>t<C-w>K
 "==================================================
 "TERMINAL mode
 
-tnoremap <Esc> <C-\><C-n>
+"tnoremap <Esc> <C-\><C-n>
+tnoremap jk <C-\><C-n>
 
 
 "==================================================
