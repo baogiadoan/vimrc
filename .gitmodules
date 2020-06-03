@@ -40,9 +40,6 @@
 [submodule "my_plugins/vimux"]
 	path = my_plugins/vimux
 	url = https://github.com/benmills/vimux.git
-[submodule "my_plugins/YouCompleteMe"]
-	path = my_plugins/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "my_plugins/vimwiki"]
 	path = my_plugins/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
