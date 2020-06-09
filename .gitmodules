@@ -88,3 +88,6 @@
 [submodule "my_plugins/coc.nvim"]
 	path = my_plugins/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "my_plugins/nvim-gdb"]
+	path = my_plugins/nvim-gdb
+	url = https://github.com/sakhnik/nvim-gdb.git
