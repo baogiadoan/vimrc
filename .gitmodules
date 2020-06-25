@@ -88,3 +88,6 @@
 [submodule "my_plugins/vim-slime"]
 	path = my_plugins/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "my_plugins/vim-bujo"]
+	path = my_plugins/vim-bujo
+	url = https://github.com/vuciv/vim-bujo.git

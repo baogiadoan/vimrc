@@ -204,3 +204,12 @@ nnoremap <Leader>d :SlimeSend1 %debug<CR>
 
 " map <Leader>q to exit debug mode or IPython
 nnoremap <Leader>q :SlimeSend1 exit<CR>
+
+
+"vim-bujo
+nmap <C-t> <Plug>BujoAddnormal
+imap <C-t> <Plug>BujoAddinsert
+
+nmap <C-c> <Plug>BujoChecknormal
+imap <C-c> <Plug>BujoCheckinsert
+
