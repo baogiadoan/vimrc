@@ -28,9 +28,6 @@
 [submodule "my_plugins/vim-cellmode"]
 	path = my_plugins/vim-cellmode
 	url = https://github.com/julienr/vim-cellmode.git
-[submodule "my_plugins/vim-ipython"]
-	path = my_plugins/vim-ipython
-	url = https://github.com/ivanov/vim-ipython.git
 [submodule "my_plugins/vim-jekyll"]
 	path = my_plugins/vim-jekyll
 	url = https://github.com/parkr/vim-jekyll.git
@@ -43,9 +40,6 @@
 [submodule "my_plugins/vimux"]
 	path = my_plugins/vimux
 	url = https://github.com/benmills/vimux.git
-[submodule "my_plugins/YouCompleteMe"]
-	path = my_plugins/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "my_plugins/vimwiki"]
 	path = my_plugins/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
@@ -79,15 +73,21 @@
 [submodule "my_plugins/vim-colorscheme-manager"]
 	path = my_plugins/vim-colorscheme-manager
 	url = https://github.com/Taverius/vim-colorscheme-manager
-[submodule "my_plugins/ultisnips"]
-	path = my_plugins/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
+[submodule "my_plugins/nvim-ipy"]
+	path = my_plugins/nvim-ipy
+	url = https://github.com/bfredl/nvim-ipy.git
 [submodule "my_plugins/vim-ipython-cell"]
 	path = my_plugins/vim-ipython-cell
 	url = https://github.com/hanschen/vim-ipython-cell.git
 [submodule "my_plugins/vim-slime"]
 	path = my_plugins/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "my_plugins/TaskList.vim"]
+	path = my_plugins/TaskList.vim
+	url = https://github.com/vim-scripts/TaskList.vim
 [submodule "my_plugins/vim-bujo"]
 	path = my_plugins/vim-bujo
 	url = https://github.com/vuciv/vim-bujo.git
+[submodule "my_plugins/coc.nvim"]
+	path = my_plugins/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
