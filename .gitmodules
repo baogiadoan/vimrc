@@ -91,6 +91,6 @@
 [submodule "my_plugins/coc.nvim"]
 	path = my_plugins/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
-[submodule "my_plugins/nvim-gdb.nvim"]
-	path = my_plugins/nvim-gdb
-	url = hhttps://github.com/sakhnik/nvim-gdb.git
+[submodule "my_plugins/vim-latex-live-preview"]
+	path = my_plugins/vim-latex-live-preview
+	url = https://github.com/xuhdev/vim-latex-live-preview.git
