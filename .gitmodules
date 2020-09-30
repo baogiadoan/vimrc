@@ -91,6 +91,3 @@
 [submodule "my_plugins/nvim-gdb.nvim"]
 	path = my_plugins/nvim-gdb
 	url = hhttps://github.com/sakhnik/nvim-gdb.git
-[submodule "my_plugins/nvim-follow-markdown-links"]
-	path = my_plugins/nvim-follow-markdown-links
-	url = https://github.com/alexpearce/nvim-follow-markdown-links.git
