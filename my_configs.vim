@@ -356,7 +356,7 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+"set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " try to fix the slow start of nvim
 let g:airline#extensions#hunks#enabled = 0
@@ -379,7 +379,7 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
-set statusline^=%{coc#status()}
+"set statusline^=%{coc#status()}
 " end: coc vim configuration
 "--------------------------------------------------"
 
