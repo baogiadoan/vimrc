@@ -90,4 +90,4 @@
 	url = https://github.com/neoclide/coc.nvim.git
 [submodule "my_plugins/nvim-gdb.nvim"]
 	path = my_plugins/nvim-gdb
-	url = hhttps://github.com/sakhnik/nvim-gdb.git
+	url = https://github.com/sakhnik/nvim-gdb.git
