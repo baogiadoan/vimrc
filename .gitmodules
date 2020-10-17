@@ -10,9 +10,6 @@
 [submodule "my_plugins/badwolf"]
 	path = my_plugins/badwolf
 	url = https://github.com/sjl/badwolf.git
-[submodule "my_plugins/follow-markdown-links"]
-	path = my_plugins/follow-markdown-links
-	url = https://github.com/prashanthellina/follow-markdown-links.git
 [submodule "my_plugins/gundo.vim"]
 	path = my_plugins/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
@@ -94,3 +91,6 @@
 [submodule "my_plugins/vim-latex-live-preview"]
 	path = my_plugins/vim-latex-live-preview
 	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "my_plugins/nvim-gdb.nvim"]
+	path = my_plugins/nvim-gdb
+	url = https://github.com/sakhnik/nvim-gdb.git
